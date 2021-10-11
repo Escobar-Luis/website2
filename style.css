@@ -60,7 +60,7 @@ section {
     text-align: center;
 }
 
-#me {
+img {
     height: 300px;
     width: 300px;
 }
@@ -77,4 +77,17 @@ section {
 }
 .Marker li {
     padding: 10px;
+}
+
+.form-container {
+    max-width: 1000px;
+}
+
+.form-container h1 {
+    color: white;
+
+}
+
+.form-container h1 + h2 {
+    color: white;
 }

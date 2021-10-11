@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head>
         <title>About Me</title>
         <link rel="stylesheet" href="./style.css">
@@ -51,6 +51,32 @@
             </ul>
         </div>
         </section>
+
+        <div class="modal-container">
+            <div class="modal">
+                <button class="modal__btn">&times;</button>
+                <h2 class="modal__title"></h2>
+                <p class="modal__body"></p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h1>Note Taker</h1>
+            <h2>New Note:</h2>
+            <form>
+                <label for="title">,Title
+                    <input name="title" id="title" cols="30" rows="10" placeholder="Enter title here."></input>
+                </label>
+
+                <label for="notes">Notes
+                    <textarea name="notes" id="note" cols="30" rows="10" placeholder="Enter note here."></textarea>
+                </label>
+            </form>
+        </div>
+
+        <div class="note-container">
+        </div>
+
         <script src="script.js"></script>
     </Body>
 </html>
