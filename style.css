@@ -113,3 +113,12 @@ label, input {
 #s {
     color: black;
 }
+
+.note-container {
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+    gap: 1.5rem;
+}
